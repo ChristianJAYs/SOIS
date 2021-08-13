@@ -1,0 +1,92 @@
+#body{
+    background-color: #050000;
+}
+
+#menu-button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#menu-text{
+    font-family: 'Roboto', 'sans-serif';
+    color: #ffd700;
+}
+
+
+#pup-logo{
+    max-width: 10%; 
+}
+
+#header{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#nav-link{
+    font-family: "Roboto","sans-serif";
+    color: white;
+    /*font-weight: bold;*/
+    font-size: 120%;
+}
+
+#nav-bar-toggler{
+    background-color: #0d0000;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-trans{
+    background: transparent;
+}
+.navbar-trans:hover{
+    background-color: #090404;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.nav-link{
+    font-family: 'Exo 2', 'sans-serif';
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#center{
+    padding-top: 10%;
+}
+
+
+#jumbotron {
+    background: rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+}
